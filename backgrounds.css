@@ -1,0 +1,25 @@
+.hero {
+    background-image: url(
+        https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.layered {
+    background-image: url(
+        https://upload.wikimedia.org/wikipedia/commons/4/4e/Pleiades_large.jpg), 
+        url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg
+    );
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom; 
+    background-size: 100px, auto;
+}
+
+.gradient{
+    background-image: liner-gradient (to right, white red blue);
+    width: 100%;
+    height: 200px;
+}
