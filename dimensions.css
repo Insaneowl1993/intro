@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+}
+
+html {
+    font-size: 30px;
+}
+
+div {
+    background-color: crimson;
+    margin: 5px;
+}
+
+.pixel {
+    width: 32px;
+    height: 32px;
+
+}
+
+.point {
+    width: 48pt;
+    height: 48pt; 
+}
+.percentage {
+    width: 20%;
+    height: 20%;
+}
+
+.em{
+    width: 4em;
+    height: 4em;
+    font-size: 8px;
+}
+
+.rem{
+    width: 4rem;
+    height: 4rem;
+    font-size: 12px;
+}
+
+.vw {
+    width: 20vw;
+    height: 10vw;
+}
+
+.vh {
+height: 20vh;
+width: 20vh;
+}
