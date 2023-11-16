@@ -1,0 +1,42 @@
+/* default state is static */
+
+header {
+    position: sticky;
+    top:0;
+    background-color: rgb(72, 72, 129);
+    padding: 40px;
+}
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: orchid
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 300px;
+    background-color: aqua;
+}
+
+.fixed {
+    position: fixed;
+    width: 100px;
+    background-color:fuchsia ;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+}
+
+footer{
+    background-color: darkcyan;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

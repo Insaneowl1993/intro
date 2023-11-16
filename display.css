@@ -1,0 +1,35 @@
+.inline {
+    display: inline-block;
+    background-color: orange;
+}
+
+.block {
+    background-color: blue;
+}
+
+li {
+    background-color: plum;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+.hide {
+    display:none
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item{
+    background-color: greenyellow;
+    width: 100px;
+}
+
+.grid-container{ 
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
