@@ -1,0 +1,27 @@
+p {
+    color: blue;
+}
+/* class selector beats type */
+.para{
+    color: peachpuff;
+}
+/* id selectors over rule class */
+#last {
+    color: yellowgreen !important; /* important, the one that rules them all*/
+}
+
+div ul li {
+    color: brown;
+}
+
+ul li {
+    color: pink;
+}
+
+li {
+    color:blue;
+}
+
+div ul li {
+    color: purple;
+}

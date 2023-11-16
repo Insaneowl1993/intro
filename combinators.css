@@ -1,0 +1,66 @@
+.content p {
+    color: red;
+}
+
+ul > li {
+    color: blue;
+}
+
+ol > li {
+    color: orange;
+}
+
+form input {
+    color: red;
+    background-color: orange;
+}
+
+form input + input {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+form input ~* {
+    color: rgb(2, 2, 2);
+    background-color: rgb(252, 252, 252);
+    border: 2px solid green;
+    border-radius: 25px;
+}
+
+form > input {
+    border: 2px solid blueviolet;
+}
+
+form input:hover{
+    border: 2px solid pink
+}
+
+blockquote::before{
+    content: "❝";
+    font-size: 1.6rem;
+    vertical-align: -0.4em;
+}
+
+blockquote::after{
+    content:"❞";
+    font-size: 1.6rem;
+    border: 1px solid black;
+
+}
+
+div:first-of-type{
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+li:nth-of-type(even){
+    text-decoration: underline;
+}
+
+div:not(.alert) {
+    background-color: purple;
+}
+
+li:nth-child(odd):hover {
+    color: azure;
+}
