@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+p {
+    font-family:'Comic Sans MS', Helvetica;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px gray; /* bottom, right, blur, color */
+}
+
+h1 {
+    background: linear-gradient(45deg, red, blue);
+    /*vendor/browser prefix */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.outline {
+    color: white;
+    text-shadow: -1px -1px -0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+.three-d {
+        color: #000;
+        text-shadow: 
+            1px 1px red,
+            2px 2px orange,
+            3px 3px blue,
+            4px 4px green,
+            5px 5px yellow,
+            6px 6px purple,
+            7px 7px cyan;
+            font-size: 40px;
+    }
+
+   .glowing-text{
+    color: #000;
+    text-shadow:
+    0 0 5px rgba(204, 0, 245, 0.5)
+   }
+
+   .transform {
+    transform: skewX(-20deg)
+   }

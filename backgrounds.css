@@ -7,10 +7,8 @@
 }
 
 .layered {
-    background-image: url(
-        https://upload.wikimedia.org/wikipedia/commons/4/4e/Pleiades_large.jpg), 
-        url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg
-    );
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg), 
+    url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Pleiades_large.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
@@ -19,7 +17,58 @@
 }
 
 .gradient{
-    background-image: liner-gradient (to right, white red blue);
+    background-image: linear-gradient(to right, red, blue);
     width: 100%;
     height: 200px;
+}
+
+.radial-gradient{
+    background-image: radial-gradient(circle farthest-corner, orange, 
+    purple, transparent 30%, yellow);
+    width: 100%;
+    height: 100px;
+}
+
+.layered-gradient {
+    background-image: radial-gradient(circle at center, white, rgba(0, 0, 0, 0.5)),
+    linear-gradient(to right, rgb(0, 81, 255), rgb(255, 208, 0));
+    width: 100%;
+    height: 200px;
+
+}
+
+.repeating-linear {
+    background-image: repeating-linear-gradient( 45deg, transparent 10px, 
+    hsla(120, 100%, 50%, 50%) 10px, hsla( 240,100%, 50%, 50%) 20px);
+    width: 100%;
+    height: 100px;
+}
+
+.repeating-radial {
+    background-image: repeating-radial-gradient( circle at center, #f00 0, 
+    #fff 10px, blue 40px);
+    width: 100%;
+    height: 100px;
+}
+
+.pattern-gallery {
+    background:
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    width: 100%;
+    height: 100px;
+    background-blend-mode:hue, normal, normal, normal ;
+}
+
+.blend {
+    background-image: repeating-linear-gradient( 45deg, transparent 10px, 
+    hsla(120, 100%, 50%, 50%) 10px, hsla( 240,100%, 50%, 50%) 20px), 
+    url(https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg);
+    width: 100%;
+    height: 100px;
+    background-blend-mode: hue;
 }
