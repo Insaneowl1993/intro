@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.responsive-box{
+    background-color: pink;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
