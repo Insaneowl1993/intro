@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+main,
+footer {
+    flex-basis: auto;
+}
+
+header{
+    background-color: fuchsia;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+main {
+    background-color: orangered;
+    flex-grow: 2;
+    flex-shrink:1;
+}
+
+footer{
+    background-color: cyan;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    align-content: flex-start;
+}
+
+.box-1 {
+    background-color: pink;
+    margin: 10px;
+    height: 40px;
+}
+.box-2 {
+    background-color: rgb(182, 100, 113);
+    margin: 10px;
+    height: 50px;
+}
+.box-3 {
+    background-color: rgb(87, 0, 16);
+    margin: 10px;
+    height: 30px;
+}
